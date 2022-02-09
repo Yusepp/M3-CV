@@ -1,0 +1,20 @@
+,Train Accuracy,Train Loss,Test Accuracy,Test Loss
+1 Conv 64 filters 5 kernel size 1 dense 1024 neurons,62.7326,1.0624,66.0471,0.9706
+2 Conv 64 filters 5 kernel size 1 dense 1024 neurons,69.697,0.8855,70.7559,0.8397
+4 Conv 64 filters 5 kernel size 1 dense 1024 neurons,80.3296,0.5649,79.6778,0.588
+8 Conv 64 filters 5 kernel size 1 dense 1024 neurons,75.4918,0.7137,76.456,0.6602
+4 Conv 64 filters 5 kernel size 2 dense 1024 neurons,82.5093,0.504,81.9083,0.5628
+4 Conv 64 filters 5 kernel size 4 dense 1024 neurons,15.5237,2.0707,14.6221,2.0698
+4 Conv 32 filters 5 kernel size 2 dense 1024 neurons,76.5019,0.655,77.943,0.6572
+4 Conv 128 filters 5 kernel size 2 dense 1024 neurons,80.6486,0.5612,81.7844,0.5847
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons,82.2967,0.5104,83.3953,0.5113
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with MaxPooling,78.5752,0.6283,77.3234,0.7044
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with 0.2 Dropout on FC,83.5194,0.4713,82.1561,0.5341
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with BatchNorm,62.8921,1.4074,65.5514,1.4211
+Conv 4 filters 256 kernel size 5 dense 2 neurons with MaxPooling and Dropout,78.7879,0.5991,76.8278,0.7568
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with MaxPooling and BatchNorm,64.4338,1.2079,59.4796,1.6041
+4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with MaxPooling and Dropout,74.907,0.6888,76.7038,0.7082
+"4 Conv 256 filters 5 kernel size 2 dense 1024 neurons with BatchNorm, MaxPooling and Dropout",53.3227,1.9579,58.3643,1.6928
+4 Conv 256 filters 3 kernel size 2 dense 1024 neurons with 0.2 Dropout on FC,83.0941,0.4694,78.5626,0.6261
+4 Conv 256 filters 7 kernel size 2 dense 1024 neurons with 0.2 Dropout on FC,73.0462,0.7837,75.4647,0.7194
+4 Conv 256 filters 9 kernel size 2 dense 1024 neurons with 0.2 Dropout on FC,70.0691,0.8669,73.482,0.7784
